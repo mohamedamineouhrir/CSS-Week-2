@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* body {
+    background-image: url(img/section1.jpg), url(img/section2.jpg), url(img/section3.jpg), url(img/section4.jpg), url(img/section5.jpg);
+    background-repeat: no-repeat, no-repeat;
+    /* background-position: center, center; */
+/* background-size: contain;
+} */
+
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    align-items: center;
+    /* ? */
+
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(img/section1.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(https://picsum.photos/1600/900);
+    object-fit: none;
+    /* padding: 300px; */
+    height: 100vh;
+}
+
+.firstsectionlink {
+    background: #0e0e7d;
+    background: linear-gradient(90deg, rgba(14, 14, 125, 1) 0%, rgba(0, 145, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.firstsectionlink a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+/* !/ section2 */
+.section2 {
+    /* background-color: blueviolet; */
+    background: repeating-linear-gradient(45deg,
+            transparent,
+            transparent 10px,
+            rgba(0, 0, 0, 0.1) 10px,
+            rgba(0, 0, 0, 0.1) 20px), 
+            linear-gradient(90deg, rgba(131, 58, 180, 1) 0%,
+            rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    height: 30vh;
+    /* ? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section2div {
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.section3 {
+    background-image: url(img/section3.jpg);
+    background-size: contain;
+    /* color: aliceblue; */
+    text-align: center;
+    padding: 70px;
+}
+
+.section4 {
+    background-image: url(img/section4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    color: aliceblue;
+    text-align: center;
+    padding: 150px;
+
+}
+
+.section5 {
+    background-image: url(img/section5.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+    /* width: 100vh; */
+}

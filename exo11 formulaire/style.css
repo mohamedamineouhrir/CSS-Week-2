@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* !main */
+.lmain {
+    padding: 80px 200px;
+    background: #152032;
+    background: linear-gradient(130deg, rgb(20, 31, 49), rgb(34, 56, 81));
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.thesectionofmain {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: #15203252; */
+    background: linear-gradient(130deg, rgba(40, 50, 68, 0.592), rgba(51, 71, 94, 0.531));
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(26, 26, 26, 0.216) 2px 2px 20px;
+}
+
+
+
+/* !content */
+.pagetitle {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+/* ?/name */
+.thediv {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content:flex-start; */
+    flex-direction: row;
+    /* flex: 1;    */
+    width: 100%;
+
+}
+
+.thesubdiv {
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    justify-content: left;
+    /* background-color: #485566; */
+    width: 50%;
+    padding: 10px;
+
+}
+
+.oneboxdivs {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content:center; */
+    /* flex-direction: column; */
+    /* flex: 1;    */
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+
+.boxtitle {
+    font-size: medium;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.inputbox {
+    background-color: #485567;
+    outline: none;
+    color: aliceblue;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+::placeholder {
+    color: rgb(205, 211, 217);
+    padding-left: 10px;
+}
+/* ?email */
+.emaildiv {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.emailsubdiv {
+
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+}
+
+/* ?/country */
+.countrydiv {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.countrysubdiv {
+
+    /* background-color: red; */
+    width: 100%;
+    padding-left: 10px;
+}
+
+/* ?/gender and skills */
+.genderandskillsdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ?gender */
+.gender {
+    display: flex;
+    /* justify-content: left; */
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+.inputformdivs {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content:left; */
+    flex-direction: row;
+    /* flex: 1;    */
+    /* width: 100%; */
+}
+
+/* ?/skills */
+.skills {
+    display: flex;
+    /* justify-content: left; */
+    flex-direction: column;
+    width: 25%;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.inputformdivs {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content:left; */
+    flex-direction: row;
+    /* flex: 1;    */
+    /* width: 100%; */
+}
+
+#checkbox {
+    /* background-color: aqua; */
+    margin: 0px 15px;
+    padding: 10px;
+}
+
+/* ?/message */
+.messagediv {
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: center;
+}
+
+.messagesubdiv {
+    width: 100%;
+    padding: 10px;
+}
+
+.messagebox {
+    background-color: #485567;
+    outline: none;
+    color: rgb(200, 209, 218);
+    padding: 20px 0px 0px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 98%;
+    resize: none;
+    height: 100px;
+}
+
+/* ?/upload cv */
+.uploadcvdiv {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.uploadbox {
+    background-color: #485567;
+    outline: none;
+    color: aliceblue;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*!footer  */
+.registerbuttondiv {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+    
+    
+
+}
+
+.registerbutton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+    font-size: medium;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(0, 196, 255), rgb(0, 117, 253));
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/signuppage.css">
+</head>
+
+<body>
+  <header class="theheader">
+    <!--! header -->
+    <div>
+      <!--! logo -->
+      <div class="hometitle">
+        <a href=""> <i><u>join us on</u></i> array.</a>
+      </div>
+    </div>
+    <nav class="navbar">
+      <!--! nav -->
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <div class="speciallinksdiv">
+        <a href="signup.html" class="speciallinks">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+  <main class="lmain">
+    <section class="thesectionofmain">
+      <div class="thebigrowdiv">
+        <fieldset class="fieldsetsdiv">
+          <!--! fieldset1 -->
+          <legend class="thelegendtitle">Personal Informations :</legend>
+          <div class="thesubdiv">
+            <!--! bottom is name -->
+            <tr>
+              <td class="boxtitle">Full name :</td>
+              <input type="name" class="inputbox" placeholder="type your name.." />
+            </tr>
+            <br />
+            <!--! bottom is email -->
+            <tr>
+              <td class="boxtitle">Email :</td>
+
+              <input type="email" class="inputbox" placeholder="type your email.." />
+            </tr>
+            <br />
+            <!--! bottom is password -->
+            <tr>
+              <td class="boxtitle">Password :</td>
+
+              <input type="password" class="inputbox" placeholder="type your password.." />
+            </tr>
+            <br />
+            <!--! bottom is age -->
+            <tr>
+              <td class="boxtitle">Age :</td>
+              <input type="numbers" class="inputbox" placeholder="type your age.." />
+            </tr>
+            <br />
+            <!--! bottom is date of birth -->
+            <tr>
+              <td class="boxtitle">Date of Birth :</td>
+              <input type="date" class="inputbox" placeholder="" />
+            </tr>
+          </div>
+
+
+        </fieldset>
+        <!-- todo/ the row -->
+        <div class="therowsubdiv">
+          <fieldset class="fieldsetsdiv">
+            <!--! fieldset2 -->
+            <legend class="thelegendtitle">Gender :</legend>
+            <!--! gender -->
+            <td>Male</td>
+            <input type="radio" />
+            <td>Female</td>
+            <input type="radio" />
+            <td>Other</td>
+            <input type="radio" />
+          </fieldset>
+          <fieldset class="fieldsetsdiv">
+            <!--! fieldset3 -->
+            <legend class="thelegendtitle">Check Words That Describe You The Best :</legend>
+            <!--! personality traits -->
+            <input type="checkbox" name="Patient" id="checkbox" />
+            <td>Patient</td>
+            <input type="checkbox" name="Passionate" id="checkbox" />
+            <td>Passionate</td>
+            <input type="checkbox" name="Hardworking" id="checkbox" />
+            <td>Hard Working</td>
+            <input type="checkbox" name="curious" id="checkbox" />
+            <td>Curious</td>
+            <input type="checkbox" name="adabtable" id="checkbox" />
+            <td>Adabtable</td>
+          </fieldset>
+        </div>
+      </div>
+      <!-- todo/ secondbigrawdiv -->
+      <div class="thescndbigrowdiv">
+        <div class="thesubdiv">
+          <fieldset class="fieldsetsdiv">
+            <!--! fieldset4 -->
+            <legend class="thelegendtitle">Country :</legend>
+            <!--! country options -->
+            <label for="country">Your Country:</label>
+            <select id="country" name="country">
+              <option value="morocco">Morocco</option>
+              <option value="spain">Spain</option>
+              <option value="france">France</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Germany">Germany</option>
+              <option value="Belgium">Belgium</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="thesubdiv">
+          <fieldset class="fieldsetsdiv">
+            <!--! fieldset5 -->
+            <legend class="thelegendtitle">Preferences :</legend>
+            <!--! motifications -->
+            <div class="forsmallerdivs">
+              <label for="notifications">Do You Want to Recieve Emails?</label>
+              <div>
+                <input type="radio" />
+                <td>Yes</td>
+                <input type="radio" />
+                <td>No</td>
+              </div>
+
+            </div>
+            <div class="forsmallerdivs">
+              <label for="experience">Have You Ever Tried Any Business Coaching Program?
+              </label>
+              <!--! tried coaching program options -->
+              <select id="experience" name="experience">
+                <option value="yes">Yes!</option>
+                <option value="quit">Yes but I didn't finish it.</option>
+                <option value="no">
+                  No, I never had any experience with business coaching.
+                </option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <!-- todo/ statement of purpose -->
+      <div class="messagediv">
+        <fieldset class="fieldsetsdiv">
+          <!--! fieldset6 -->
+          <legend class="thelegendtitle">Statment of Purpose :</legend>
+          <textarea name="textarea" class="messagebox" placeholder="type in here.."></textarea>
+        </fieldset>
+        
+        <!-- todo/ upload file -->
+        <fieldset class="fieldsetsdiv">
+          <!--! fieldset7 -->
+          <legend class="thelegendtitle">Upload Profile Picture :</legend>
+          <input type="file" class="uploadbox" />
+        </fieldset>
+        </div>
+        <div class="pageendbuttons">
+          <!--! submit buttons -->
+          <input type="button" value="Sign Up" class="onebutton"/>
+          <input type="button" value="Go Back" class="onebutton"/>
+        </div>
+      
+
+    </section>
+  </main>
+  <footer>
+    <!--! footer -->
+    <h3 align="right">Back to <a href="index.html">Home</a></h3>
+  </footer>
+</body>
+
+</html>

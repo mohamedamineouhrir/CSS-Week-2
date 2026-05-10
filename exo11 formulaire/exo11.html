@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echo11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main class="lmain">
+        <section class="thesectionofmain"><!-- !header -->
+            <div class="pagetitle">
+                <h1>Registration Form</h1>
+            </div>
+
+
+            <!-- !main -->
+            <!-- todo/ name -->
+            <div class="thediv">
+                <!-- ?/ first name -->
+                <div class="thesubdiv">
+                    <h1 class="boxtitle">
+                        First Name
+                    </h1>
+                    <input type="text" name="firstname" class="inputbox" placeholder="Enter First Name">
+                </div>
+                <!-- ?/ last name -->
+                <div class="thesubdiv">
+                    <h1 class="boxtitle">
+                        Last Name
+                    </h1>
+                    <input type="text" name="lastname" class="inputbox" placeholder="Enter Last name">
+                </div>
+            </div>
+            <!-- todo/ Email -->
+            <div class="emaildiv">
+                <div class="emailsubdiv">
+                    <h1 class="boxtitle">
+                        Email
+                    </h1>
+                    <input type="email" name="email" class="inputbox" placeholder="Enter email">
+                </div>
+            </div>
+            <!-- todo/ Password and age -->
+            <div class="thediv">
+                <!-- ?/ fpassword -->
+                <div class="thesubdiv">
+                    <h1 class="boxtitle">
+                        Password
+                    </h1>
+                    <input type="password" name="password" class="inputbox" placeholder="Enter Password">
+                </div>
+                <!-- ?/ age -->
+                <div class="thesubdiv">
+                    <h1 class="boxtitle">
+                        Age
+                    </h1>
+                    <input type="number" name="age" class="inputbox" placeholder="Enter Age">
+                </div>
+            </div>
+            <!-- todo/ country -->
+            <div class="countrydiv">
+                <!-- ?/ country -->
+                <div class="countrysubdiv">
+                    <h1 class="boxtitle">
+                        Country
+                    </h1>
+                    <select name="Country" class="inputbox" aria-placeholder="Select Country">
+                        <option value="a">Morocco</option>
+                        <option value="b">France</option>
+                        <option value="c">Belgium</option>
+                    </select>
+                </div>
+
+            </div>
+            <!-- todo/ Gender -->
+            <div class="genderandskillsdiv">
+                <div class="gender">
+                    <h1 class="boxtitle">Gender</h1>
+                    <div class="inputformdivs">
+
+                        <label for="gender">Male</label>
+                        <input type="radio" name="Male" class="inputbox">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="Female" class="inputbox">
+                    </div>
+                    <div class="skills">
+
+                    <h1 class="boxtitle">Skills</h1>
+                    <div class="inputformdivs"><label for="checkbox">HTML</label>
+                            <input type="checkbox" name="HTML" id="checkbox">
+                            <label for="checkbox">CSS</label>
+                            <input type="checkbox" name="CSS" id="checkbox">
+                            <label for="checkbox">JavaScript</label>
+                            <input type="checkbox" name="JavaScript" id="checkbox">
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- todo/ Skills -->
+
+            </div>
+            <!-- todo/ Message -->
+            <div class="messagediv">
+                <div class="messagesubdiv">
+                    <h1 class="boxtitle">Message</h1>
+                    <textarea name="messagebox" class="messagebox">Type here...</textarea>
+                </div>
+
+            </div>
+            <!-- todo/ file upload -->
+            <div class="uploadcvdiv">
+                <div class="uploadcvsubdiv">
+                    <h1 class="boxtitle">Upload CV</h1>
+                    <input type="file" name="" class="uploadbox">
+                </div>
+            </div>
+
+
+            <!-- !/ footer -->
+            <div class="registerbuttondiv">
+                <input type="button" value="Register" class="registerbutton">
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

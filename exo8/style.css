@@ -1,0 +1,344 @@
+body {
+  /* background-color: #faf5f1; */
+  background-color: #ecded2;
+  /* padding: 5%; */
+  margin: 25px 40px;
+}
+/* !HEADER */
+/* todo this is the header box */
+.lheader {
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  /* box-shadow: 0px 0px 15px #696c708d; */
+  /* box-shadow: 0px 10px 15px -5px black; */
+}
+
+/* todo NAVBAR ITEMS */
+.navdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* todo LEFT NAVBAR ITEMS */
+.webtitle {
+  font-size: larger;
+}
+
+/* todo LEFT NAVBAR ITEMS */
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #62c4b1; */
+  border-radius: 15px;
+  /* height: 0auto; */
+  margin: 10px;
+}
+
+.avatardiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 35px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.avatar {
+  /* background-color: red; */
+  width: 35px;
+  border-radius: 50%;
+}
+.usernamediv {
+}
+.username {
+  /* ackground-color: red; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+
+/* todo/ searchbox */
+.searchboxdiv {
+  /* background-color: aqua; */
+  /* width: 70%; */
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchbox {
+  background-color: #f0f4f5;
+  border: none;
+  outline: none;
+  /* width: 70%; */
+  height: 35px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* !MAIN */
+/* todo/ MAIN GENERAL PARAMETER */
+.themain {
+  background-color: white;
+  padding-top: 40px;
+  border-radius: 0px 0px 15px 15px;
+  /* box-shadow: 0px 0px 15px #696c708d; */
+  /* box-shadow: 0px 10px 15px -5px black; */
+  /* display: flex;
+  justify-content:; */
+}
+
+/* todo/ SIDEBAR */
+.sidebar {
+  /* background-color: aqua; */
+  /* margin-left: 3% ;  */
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.sidemenuul {
+  /* background-color: #f9bd51; */
+  /* margin: 20px; */
+  /* text-align: left; */
+  list-style: none;
+}
+.sidemenuli {
+  /* margin: 30px; */
+  margin-bottom: 40px;
+}
+.sidemenu {
+  /* background-color: #60636313; */
+  padding: 20px;
+  /* margin: 20px; */
+  /* text-align: left; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  text-decoration: none;
+  color: black;
+}
+.sidemenu:hover {
+  background-color: #4a5e5e3b;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+
+/* todo/ MAIN PAGE CONTENT */
+.lmain {
+  /* background-color: aqua; */
+  /* margin-left: 25%; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.mainsection {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* width: 100%; */
+  padding: 0px 40px;
+}
+/* todo/ LEFT DIV */
+.leftdiv {
+  /* background-color: aqua; */
+  width: 50%;
+}
+.welcomingtitle {
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #162121;
+  /* letter-spacing: 1px; */
+}
+.wallet {
+  font-family: "Anonymous Pro", monospace;
+  /* font-family: "Selectric", sans-serif; */
+  font-size: xx-large;
+  color: #62c4b1;
+  letter-spacing: 1%;
+}
+.leftdivpara {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  color: #162121;
+}
+.investnow {
+  color: #f9bd51;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  text-underline-offset: 5px;
+}
+/* todo/ right div */
+.illustrationdiv {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: right;
+
+  width: 50%;
+}
+.illustration {
+  width: 65%;
+  /* background-color: red; */
+}
+
+/* ! MAIN --
+!BOTTOM stuff */
+
+.mainbottom {
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 15px;
+  font-family: "Roboto";
+  margin-bottom: 50px;
+}
+/* todo/ header of transactions */
+.transactionsheader {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 35px;
+}
+.transactionnotification {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+/* ? title */
+.toreview {
+  /* font-family: "Roboto", sans-serif; */
+}
+/* ? number of transactions to reviews */
+.toreviewnotif {
+  /* *flexbox stuff* */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* *font stuff* */
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: bold;
+  font-size: small;
+  color: #828891;
+
+  /* *circle* */
+  background-color: #f7f6fc;
+  width: 12px;
+  height: 12px;
+  padding: 7px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+.viewlink {
+  color: #f9bd51;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+/* todo/ transaction group-list */
+.transactiongroup {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.transactionsdate {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.date {
+  font-family: "Inter", sans-serif;
+  color: #828891;
+}
+.stock {
+  font-family: "Anonymous Pro", monospace;
+  color: #828891;
+}
+
+/* todo/ the transaction */
+.weekgroup {
+  /* background-color: aqua; */
+  justify-items: center;
+  /* display: flex; */
+}
+.onestock {
+  /* background-color: purple; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top: #828891 solid 1px;
+  /* border-bottom: #828891 solid 1px; */
+  padding: 30px 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.onestock:hover {
+  background-color: #81969619;
+  border-radius: 15px;
+  box-shadow: 0px 8px 6px -3px #96aeca30;
+  color: #001a38;
+  .stocksizm {
+    font-style: oblique;
+  }
+  .brandname {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: #855600e0;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+  }
+  transition: 0.3s;
+}
+.grayedtext {
+  color: #828891;
+  font-weight: 400;
+}
+.brand {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.brandicon {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 60px;
+  width: 100px;
+}
+.brandname {
+  color: #222f31;
+}
+.stockprice {
+  font-family: "Inter", monospace;
+  font-weight: bolder;
+  color: #222f31;
+}
+.stocksizm {
+  /* background-color: aqua; */
+  justify-items: right;
+  line-height: 4px;
+  align-content: center;
+  /* mar: 20px 0px 20px 0px; */
+  /* height: 60px; */
+}
